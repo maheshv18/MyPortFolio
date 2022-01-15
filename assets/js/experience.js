@@ -14,7 +14,7 @@ const exp = [
   },
   {
     title: "Web Developer",
-    cardImage: "assets/images/experience-page/cisco.png",
+    cardImage: "assets/images/experience-page/thingq.PNG",
     place: "Cisco ThingQBator",
     time: "(October - November, 2021)",
     desp: "<li>Developed user interfaces with modern JavaScript frameworks, HTML5 and CSS3 for a video chat application.</li><li>Studied basic project requirements with assigned technical lead and planned development strategies.</li><li>Troubleshot and debugged code ensuring compatibility with devices, browsers, and operating systems.</li><li>Studied user requirements and implemented requirements into solutions.</li>",
