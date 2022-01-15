@@ -1,5 +1,5 @@
 var cursor = {
-    delay: 2,
+    delay: 1.5,
     _x: 0,
     _y: 0,
     endX: (window.innerWidth / 2),
