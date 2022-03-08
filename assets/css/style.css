@@ -530,7 +530,7 @@ color: #ffffff !important;
     width: 3.125rem;
     height: 3.125rem;
     border: 0.125rem solid transparent;
-    padding: 0;
+    padding-left: 4px;
     text-decoration: none;
     text-align: center;
     color: #fefefe;

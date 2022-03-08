@@ -10,14 +10,21 @@ const exp = [
     cardImage: "assets/images/experience-page/microsoft.png",
     place: "Microsoft",
     time: "(June 2021 - July 2021)",
-    desp: "<li>Worked on agile and scrum based methodology where tasks were allocated in sprints and weekly reviews were conducted</li> <li>Made changes in the current progressive web app of MS Teams Clone and integrated new features. </li> <li>SocketIO, NodeJS , HTML, CSS, JS, EJS were used in developing the project</li>",
+    desp: "<li>Worked on agile and scrum based methodology where tasks were allocated in sprints and weekly reviews were conducted</li> <li>Made changes in the current progressive web app of MS Teams Clone and integrated new features. </li> <li>SocketIO, NodeJS , HTML, CSS, JS, EJS were used in developing the project</li><p align = center style=font-size:150%;><a href= https://drive.google.com/file/d/1mXD3DUF9XHVo55hVuv0uL0mfow1-5RrN/view target=_blank>Verify</a></p>",
   },
   {
     title: "Web Developer",
     cardImage: "assets/images/experience-page/thingq.PNG",
     place: "Cisco ThingQBator",
     time: "(October - November, 2021)",
-    desp: "<li>Developed user interfaces with modern JavaScript frameworks, HTML5 and CSS3 for a video chat application.</li><li>Studied basic project requirements with assigned technical lead and planned development strategies.</li><li>Troubleshot and debugged code ensuring compatibility with devices, browsers, and operating systems.</li><li>Studied user requirements and implemented requirements into solutions.</li>",
+    desp: "<li>Developed user interfaces with modern JavaScript frameworks, HTML5 and CSS3 for a video chat application.</li><li>Studied basic project requirements with assigned technical lead and planned development strategies.</li><li>Troubleshot and debugged code ensuring compatibility with devices, browsers, and operating systems.</li><li>Studied user requirements and implemented requirements into solutions.</li><p align = center style=font-size:150%;><a href= https://drive.google.com/file/d/1M4yYv3aIKtVIVZEDEfD_-I6N6_weGsCz/view target=_blank>Verify</a></p>",
+  },
+  {
+    title: "Web Developer and UI/UX Design Intern",
+    cardImage: "assets/images/experience-page/spark.PNG",
+    place: "The Sparks Foundations",
+    time: "(February-Present, 2022)",
+    desp: "<li>Working on the UI/UX of an online banking website with an integrated payment gateway.</li><li>HTML, CSS, JS, Bootstrap are the current tech stacks that I am using on it.</li><p align = center style=font-size:150%;><a href= https://links-truecertificates.s3.ap-south-1.amazonaws.com/published/2022-00-25/6LC7VRUKFG.png target=_blank>Verify</a></p>",
   },
 
 ];
@@ -64,7 +71,7 @@ const showCards = () => {
       (output += `        
       <div class="card volunteerCard" data-aos="fade-down" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="600" style="height: 550px;width:400px">
       
-      <img src="${cardImage}" height="250" width="65" class="card-img" style="border-radius:10px">
+      <img src="${cardImage}" height="100" width="65" class="card-img" style="border-radius:10px">
       <div class="content">
           <h2 class="volunteerTitle">${title}</h2><br>
           <p class="copy">${description}</p></div>
